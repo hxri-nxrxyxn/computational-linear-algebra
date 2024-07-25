@@ -18,12 +18,12 @@ $$
         \end{pmatrix}
 $$
 
-## Pseudocode - Solution of System of equation
+## Pseudocode - Solution of System of Equations
 
 ```
 
 FUNCTION solution(A, B):
-    create augmented matrix: k - [A|B]
+    create augmented matrix: K = [A|B]
     reduce in row reduced echolon form
     rank = no of non zero rows of RREF
     IF (rank(K) != rank(A)):
